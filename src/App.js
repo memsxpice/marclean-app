@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LoginNomina from './Components/LoginNomina/LoginNomina';
+import LoginPV from './Components/LoginPV/LoginPV';
 
 function App() {
   return (
     <div>
-      <LoginNomina/>
+      <LoginPV/>
     </div>
   );
 }
