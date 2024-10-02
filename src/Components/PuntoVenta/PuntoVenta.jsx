@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link  } from "react-router-dom";
-import './LoginPV.css';
+import './PuntoVenta.css';
 
-const LoginPV = () => {
+const PuntoVenta = () => {
     return (
         <div className='container'>
             <div className='header'>
@@ -19,11 +18,11 @@ const LoginPV = () => {
             </div>
             <div className="forgot-password">¿Olvidaste tu contraseña? <span>Clik aqui</span></div>
             <div className="submit-container">
-                <div className="submit"><Link to="/puntoVenta">Iniciar Sesion</Link></div>
+                <div className="submit">Iniciar Sesion</div>
             </div>
         </div>
     )
 }
 
 
-export default LoginPV
+export default PuntoVenta

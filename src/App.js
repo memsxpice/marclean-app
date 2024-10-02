@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import LoginPV from './Components/LoginPV/LoginPV';
+import PuntoVenta from './Components/PuntoVenta/PuntoVenta';
 
 function App() {
   return (
-    <div>
-      <LoginPV/>
-    </div>
+      <Router>
+      <Routes>
+        <Route exact path="/puntoVenta" element={<PuntoVenta />} />
+        <Route exact path="/" element={<LoginPV />} />
+      </Routes>
+    </Router>
   );
 }
 
