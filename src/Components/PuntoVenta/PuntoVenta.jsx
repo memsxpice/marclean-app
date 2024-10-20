@@ -5,9 +5,9 @@ const PuntoVenta = () => {
     return (
         <div className='container'>
 
-    <img src="limpieza dos.jpg" alt="">
+    <img src="limpieza dos.png" alt="">
 
-    <img src="limpieza.png" alt="">
+    <img src="limpieza.jpg" alt="">
 
             
         </div>
