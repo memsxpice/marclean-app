@@ -51,7 +51,15 @@ const PuntoVenta = () => {
                 </div>
                 <div className='columna-2'>
                     <h1>Calculadora</h1>
-
+                    <input type="text" />
+                    <table>
+                        <tr>
+                            <td><button type="button">AC</button></td>
+                            <td><button type="button">±</button></td>
+                            <td><button type="button">%</button></td>
+                            <td><button type="button">÷</button></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
     )
