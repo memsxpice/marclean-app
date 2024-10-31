@@ -59,6 +59,18 @@ const PuntoVenta = () => {
                             <td><button type="button">%</button></td>
                             <td><button type="button">÷</button></td>
                         </tr>
+                        <tr>
+                            <td><button type="button">7</button></td>
+                            <td><button type="button">8</button></td>
+                            <td><button type="button">9</button></td>
+                            <td><button type="button">x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button">4</button></td>
+                            <td><button type="button">5</button></td>
+                            <td><button type="button">6</button></td>
+                            <td><button type="button">-</button></td>
+                        </tr>
                     </table>
                 </div>
             </div>
