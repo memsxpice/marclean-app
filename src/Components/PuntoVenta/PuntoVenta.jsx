@@ -71,6 +71,17 @@ const PuntoVenta = () => {
                             <td><button type="button">6</button></td>
                             <td><button type="button">-</button></td>
                         </tr>
+                        <tr>
+                            <td><button type="button">1</button></td>
+                            <td><button type="button">2</button></td>
+                            <td><button type="button">3</button></td>
+                            <td><button type="button">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button type="button">0</button></td>
+                            <td><button type="button">.</button></td>
+                            <td><button type="button">=</button></td>
+                        </tr>
                     </table>
                 </div>
             </div>
